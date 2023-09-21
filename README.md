@@ -5,12 +5,12 @@ This repo is for my package list backup so that i can re-install all my package 
 ### To backup all of your currently installed package
 #### Backup package in official repository
 ```bash
-pacman -Qqen > pkglist-repo.txt
+pacman -Qqen | cut -f 1 -d " " > pkglist-repo.txt
 ```
 
 #### Backup package in arch user repository (AUR)
 ```bash
-pacman -Qqem > pkglist-aur.txt
+pacman -Qqem | cut -f 1 -d " " > pkglist-aur.txt
 ```
 
 ### To restore / re-install all of your package
