@@ -1,4 +1,4 @@
 #!/bin/sh
 
-pacman -Qqen > ${1:-pkglist-repo.txt}
-pacman -Qqem > ${2:-pkglist-aur.txt}
+pacman -Qqen | cut -f 1 -d " " > ${1:-pkglist-repo.txt}
+pacman -Qqen | cut -f 1 -d " " > ${2:-pkglist-aur.txt}
