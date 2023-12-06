@@ -18,6 +18,7 @@ blueman
 bluez
 bluez-utils
 brightnessctl
+burpsuite
 chromium
 clipgrab
 cliphist
@@ -38,9 +39,11 @@ firewalld
 flatpak
 freerdp
 geany
+geeqie
 gimp
 git
 gnome-disk-utility
+gnome-photos
 grim
 grub
 grub-btrfs
@@ -59,6 +62,7 @@ iptables-nft
 jre8-openjdk
 kgpg
 kitty
+libc++
 libreoffice-fresh
 libvirt
 linux
@@ -89,6 +93,8 @@ pacman-contrib
 papirus-icon-theme
 paru
 pavucontrol
+photoflare
+phototonic
 picom
 pipewire
 pipewire-alsa
@@ -108,8 +114,10 @@ ranger
 reflector
 rofi
 rsync
+scratch
 scrot
 sddm
+seahorse
 shotwell
 slock
 slurp
